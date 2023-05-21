@@ -1,27 +1,35 @@
 <svg id="background" width='1728' height='1235' viewBox="0 0 1728 1235" fill='none' xmlns='http://www.w3.org/2000/svg'><g opacity='0.75' filter='url(#filter0_f_39_143)'><circle cy='1000' r='264' fill='url(#paint0_linear_39_143)'/></g><g opacity='0.65' filter='url(#filter1_f_39_143)'><circle cx='1720' cy='264' r='379' fill='url(#paint1_linear_39_143)'/></g><defs><filter id='filter0_f_39_143' x='-485' y='515' width='970' height='970' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/><feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/></filter><filter id='filter1_f_39_143' x='1120' y='-336' width='1200' height='1200' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/><feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/></filter><linearGradient id='paint0_linear_39_143' x1='196.5' y1='902' x2='-2.55853e-05' y2='1264' gradientUnits='userSpaceOnUse'><stop stop-color="var(--bttm-left-blur-1)"/><stop offset='1' stop-color="var(--bttm-left-blur-2)"/></linearGradient><linearGradient id='paint1_linear_39_143' x1='1720' y1='-115' x2='1720' y2='643' gradientUnits='userSpaceOnUse'><stop stop-color="var(--top-right-blur-1)"/><stop offset='1' stop-color="var(--top-right-blur-2)" /></linearGradient></defs></svg>     
 <div id="content">
   <div class="header">
-    <h1>Quickstart Template</h1>
-    <div class="logo">
-      <img src="https://user-images.githubusercontent.com/43764894/223549637-2715c89d-a44e-42e0-8f6c-fa6246279658.png">
-    </div>
+    <h1>Portal de Leyes Mexicanas</h1>
     <h2>
-      This is a bare-bones Angular project that has everything you need to quickly deploy it to Netlify
+      Acceso a la información libre.
     </h2>
+    <p>
+      Este sitio está dedicado a proveer información accesible y comprensiva acerca de la leyes mexicanas, especialmente el reglamento de Tránsito de Monterrey.
+    </p>
+    <p>
+      Creemos que todos debemos tener la oportunidad de entender nuestros derechos y obligaciones. Ya seas ciudadano, residente o visitante en México, esta plataforma funciona como un valioso recurso para el conocimiento legal.
+    </p>
+    <p>
+      Con una interfaz amigable y lenguaje claro, pretendemos desglosar los conceptos legales y hacerlos facilmente entendibles. Nuestra misión es empoderar a los individuos al equiparlos con la información necesaria para navegar el marco legal de México de manera confidente.
+    </p>
     <div class="bttns">
-      <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/angular-quickstart" class="bttn primary">Deploy to Netlify</a>
-      <a href="https://github.com/netlify-templates/angular-quickstart" class="bttn secondary">View Repo</a>
+      <a href="#" class="bttn secondary">Navegar</a>
+      <a routerLink='/reglamento' class="bttn primary">Ver reglamento</a>
     </div>
   </div>
+
+  <router-outlet></router-outlet>
   <div class="resource-list">
     <ul>
       <li>
-        <a href="https://www.netlify.com/tags/angular/">Netlify Blog: Angular posts</a>
+        <a href="https://www.netlify.com/tags/angular/">Contacto</a>
       <li>
-        <a href="https://docs.netlify.com/">Netlify Docs</a>
+        <a href="">Acerca de</a>
       </li>
       <li>
-        <a href="https://angular.io/">Angular Docs</a>
+        <a href="#">Misión y visión</a>
       </li>
     </ul>
   </div>
