@@ -3,12 +3,14 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { ReglamentoComponent } from './reglamento/reglamento.component';
 import { TransitoComponent } from './transito/transito.component';
+import { HeaderComponent } from './header/header.component';
 import { AppComponent } from './app.component';
 
 const ROUTES: Routes = [
   { path: '', component: TransitoComponent},
   { path: 'reglamento', component: ReglamentoComponent },
   { path: 'transito', component: TransitoComponent},
+  { path: 'header', component: HeaderComponent},
   { path: '**',   redirectTo: '', pathMatch: 'full' }, // redirect to `first-component`
   //{ path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page
 ];
