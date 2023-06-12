@@ -1,24 +1,45 @@
-
+<header>
     <h1>
         Reglamento de Tránsito de Monterrey
     </h1>
+</header>
+
     
     <div class="panel-body">
-  
-        <h3>LEY DE MOVILIDAD SOSTENIBLE Y ACCESIBILIDAD PARA EL ESTADO DE NUEVO LEÓN</h3>
-        
-        <h5>Última Reforma: 24 de Enero 2023</h5>
-        
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>LEY DE MOVILIDAD SOSTENIBLE Y ACCESIBILIDAD PARA EL ESTADO DE NUEVO LEÓN</mat-card-title>
+                <mat-card-subtitle>Última Reforma: 24 de Enero 2023</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+                <p>LEY PUBLICADA EN EL PERIODICO OFICIAL #3-III DE FECHA 08 DE ENERO DE 2020. F. DE E. P.O. 24 DE ENERO DE 2020.</p>
+                <p>JAIME HELIODORO RODRÍGUEZ CALDERÓN, GOBERNADOR CONSTITUCIONAL DEL ESTADO LIBRE Y SOBERANO DE NUEVO LEÓN, A TODOS SUS HABITANTES HAGO SABER: Que el H. Congreso del Estado ha tenido a bien decretar lo que sigue:
+                </p>
+            </mat-card-content>
+        </mat-card>
         
     <div style="margin-top: 20px; padding-top:20px; font-size:110%; border-top: 4px solid #ff6600;">
-        <ia-header></ia-header>
-          <p>LEY DE MOVILIDAD SOSTENIBLE Y ACCESIBILIDAD PARA EL ESTADO DE NUEVO LEÓN<br>
-      ÚLTIMA REFORMA PUBLICADA EN EL PERIÓDICO OFICIAL DE FECHA 24 DE ENERO DE 2023.</p>
-      
-      <p>LEY PUBLICADA EN EL PERIODICO OFICIAL #3-III DE FECHA 08 DE ENERO DE 2020. F. DE E. P.O. 24 DE ENERO DE 2020.</p>
-      
-      <p>JAIME HELIODORO RODRÍGUEZ CALDERÓN, GOBERNADOR CONSTITUCIONAL DEL ESTADO LIBRE Y SOBERANO DE NUEVO LEÓN, A TODOS SUS HABITANTES HAGO SABER: Que el H. Congreso del Estado ha tenido a bien decretar lo que sigue:</p>
-      
+    <ia-header></ia-header>
+    <h3>Índice</h3>  
+    <mat-grid-list cols="2" rowHeight="2:1">
+        <mat-grid-tile>
+            Índice de capítulos
+            <ul>
+                <li><a href="/reglamento#capitulo-1">Capítulo 1</a></li>
+            </ul>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            
+            <!-- Citar Documento del DOF. -->
+            
+        </mat-grid-tile>
+      </mat-grid-list>
+
+    <mat-chip-listbox aria-label="Índice de capítulos">
+        <mat-chip-option *ngFor="let cap of numCapitulos;">
+            <button mat-stroked-button color="accent">Capítulo {{cap}}</button>
+        </mat-chip-option>
+    </mat-chip-listbox>
       <p><br>
       DECRETO</p>
       
@@ -27,11 +48,10 @@
       <p><br>
       Artículo Único.- Se expide la Ley de Movilidad Sostenible y Accesibilidad para el Estado de Nuevo León.</p>
       
-      <p><br>
-      TÍTULO PRIMERO<br>
-      DISPOSICIONES GENERALES</p>
+      <h2>TÍTULO PRIMERO</h2>
+      <p>DISPOSICIONES GENERALES</p>
       
-      <p>CAPÍTULO PRIMERO<br>
+      <p id="capitulo-1">CAPÍTULO PRIMERO<br>
       OBJETO DE LA LEY</p>
       
       <p><br>
@@ -102,197 +122,199 @@
       <p>VII. Usuarios de transporte particular automotor.</p>
       
       <p>En el ámbito de sus atribuciones, las autoridades en materia de movilidad deben contemplar lo dispuesto en este artículo como referente y fin último en la elaboración de políticas públicas y programas, procurando en todo momento su cumplimiento y protección.</p>
-      
-      <p><br>
-      CAPÍTULO SEGUNDO<br>
-      PRINCIPIOS</p>
-      
-      <p>Artículo 6. El Estado y los Municipios al diseñar e implementar sus programas, políticas, acciones de accesibilidad y movilidad, observarán los principios siguientes:</p>
-      
-      <p>I. Accesibilidad Urbana. Promover una adecuada accesibilidad que genere cercanía y favorezca la relación entre diferentes actividades urbanas;</p>
-      
-      <p>II. Accesibilidad Universal. Garantizar el derecho de las personas de desplazarse por las vías públicas sin obstáculos y con seguridad independientemente de su condición;</p>
-      
-      <p>III. Asequibilidad. Garantizar condiciones óptimas para que las personas tengan acceso a los bienes y servicios de movilidad a un precio justo, a fin de incentivar el uso de los mismos y favorecer la economía personal de los usuarios;</p>
-      
-      <p>IV. Calidad. Garantizar que los componentes del sistema de movilidad cuenten con los requerimientos y los aditamentos aceptables para cumplir con su función, inspeccionadas y autorizadas por la autoridad competente, producir el menor daño ambiental, ofrecer un espacio apropiado y confortable para las personas y encontrarse en buen estado, en condiciones higiénicas, de seguridad, y con mantenimiento regular, para proporcionar una adecuada experiencia de viaje en el menor tiempo posible y minimizando las externalidades;</p>
-      
-      <p>V. Concurrencia de órdenes de gobierno. Coordinar a todas las autoridades en el ámbito de sus atribuciones en el cumplimiento de los objetivos de la presente Ley;</p>
-      
-      <p>VI. Eficiencia. Maximizar los desplazamientos ágiles y asequibles optimizando los recursos disponibles, sin que su diseño y operación produzcan externalidades negativas;</p>
-      
-      <p>VII. Espacio Público: Generar condiciones para que el espacio público cumpla la función de articular los servicios, equipamientos, e infraestructura para la movilidad sostenible y la habitabilidad;</p>
-      
-      <p>VIII. Igualdad e Inclusión. Equiparar las oportunidades de la población para alcanzar un efectivo ejercicio de su derecho a la movilidad, poniendo especial énfasis en grupos en desventaja física, social y económica, para reducir mecanismos de exclusión;</p>
-      
-      <p>IX. Innovación tecnológica. Emplear soluciones apoyadas en tecnología de punta, para almacenar, procesar, distribuir información que permita contar con nuevos sistemas, aplicaciones y/o servicios que contribuyan a una gestión eficiente, tendiente a la automatización y reducción de los errores en los desplazamientos;</p>
-      
-      <p>X. Multimodalidad. Ofrecer a los diferentes grupos de usuarios opciones de servicios y modos de transporte integrados, que proporcionen al menor costo un recorrido de mayor distancia, disponibilidad, velocidad, y accesibilidad, que permitan reducir el uso del automóvil particular;</p>
-      
-      <p>XI. Participación y corresponsabilidad social. Establecer un sistema de movilidad basado en soluciones colectivas, que resuelva los desplazamientos de toda la población y en el que se promuevan nuevos hábitos de movilidad, a través de la aportación de todos los actores sociales y tecnológicos, en el ámbito de sus capacidades y responsabilidades;</p>
-      
-      <p>XII. Progresividad: gradualidad para lograr el pleno cumplimiento del derecho a la movilidad mediante la implementación permanente de políticas públicas que permitan una evolución favorable en el ámbito de protección jurídica de las personas;</p>
-      
-      <p>XIII. Resiliencia. Lograr que el sistema de movilidad tenga capacidad para soportar situaciones fortuitas o de fuerza mayor, con una recuperación de bajo costo para la sociedad y al medio ambiente;</p>
-      
-      <p>XIV. Seguridad Vial. Privilegiar las acciones de prevención de hechos de tránsito durante los desplazamientos, con el fin de proteger la integridad física de las personas y evitar la afectación a los bienes públicos y privados;</p>
-      
-      <p>XV. Sostenibilidad y Energías Limpias. Solucionar los desplazamientos de personas y sus bienes, minimizando los efectos negativos, favoreciendo la calidad de vida y el medio ambiente, incentivar el uso de transporte público y no motorizado, impulsar el uso de energías limpias en los medios de transporte, impulsando y estableciendo la obligación de los concesionarios y permisionarios de transporte público y privado de pasajeros y transporte privado de carga, de utilizar el uso de energías limpias; y</p>
-      
-      <p>XVI. Transparencia y rendición de cuentas: Poner al alcance de los ciudadanos la información relacionada con el uso de los recursos públicos y de los recursos privados derivados de la prestación del servicio de transporte público a través de particulares. La información relacionada con tarifas del transporte público de pasajeros será considerada como pública, incluyendo la relativa a su recaudo por los prestadores del servicio, así como el estudio, dictaminación, discusión y resolución de sus incrementos.</p>
-      
-      <p>Artículo 7. Los términos y plazos establecidos en esta Ley, se considerarán como días hábiles, salvo disposición en contrario.</p>
-      
-      <p>Artículo 8. Para los efectos de esta Ley, se entiende por:</p>
-      
-      <p>I. Ampliación: Es la extensión al itinerario de una ruta, autorizada a partir de uno de los extremos de su recorrido;</p>
-      
-      <p>II. Área Conurbada: La continuidad física y demográfica que formen dos o más Centros de Población;</p>
-      
-      <p>III. Autobús: Vehículo automotor de seis o más llantas, diseñado y equipado para el transporte público o privado de personas, con una capacidad para cuarenta o más pasajeros, pudiendo tener ejes o articulaciones adicionales;</p>
-      
-      <p>IV. Autobús Convencional: Vehículo de pasajeros con puerta de acceso ubicada detrás de sus ruedas frontales;</p>
-      
-      <p>V. Autobús Panorámico: Vehículo de pasajeros con puerta de acceso ubicada delante de sus ruedas frontales y con más de 10 metros de largo;</p>
-      
-      <p>VI. Bahía: Espacio exclusivo dentro de la vialidad fuera del carril de circulación para realizar sólo labores de ascenso y descenso de pasajeros;</p>
-      
-      <p>VII. Banqueta: Son franjas pavimentadas destinadas exclusivamente al tránsito de personas cuya función es la de conectar los predios y edificaciones colindantes así como calles o aceras;</p>
-      
-      <p>VIII. Bicicleta: Vehículo de dos ruedas cuyos pedales transmiten el movimiento a la rueda trasera por medio de dos piñones y una cadena;</p>
-      
-      <p>IX. Biciestacionamiento: Espacio físico y/o mobiliario urbano utilizado para sujetar, resguardar y/o custodiar bicicletas por tiempo determinado;</p>
-      
-      <p>X. BTR: Bus de tránsito rápido, es aquel autobús que cuenta con carril confinado y estaciones fijas para los pasajeros;</p>
-      
-      <p>XI. Carnet de Identificación: Documento oficial con los datos de los operadores de los vehículos pertenecientes al Sistema de Transporte a la vista de los usuarios;</p>
-      
-      <p>XII. Ciclista: Persona que se desplaza en bicicleta o similares no motorizados;</p>
-      
-      <p>XIII. Ciclocarril: Carril exclusivo para bicicletas y otros medios no motorizados señalizado con pintura o dispositivos para el control de tránsito;</p>
-      
-      <p>XIV. Comisario: Servidor Público, que presidirá el Comité de Vigilancia del Instituto y que estará encargado de la supervisión, inspección y auditoría de las finanzas y cuentas públicas del Instituto, y pertenecerá a la Junta de Gobierno, además de las diversas funciones a que lo facultan ésta Ley y la Ley que crea el Instituto;</p>
-      
-      <p>XV. Comité Técnico de Movilidad: órgano con autonomía técnica y de gestión, con funciones de carácter técnico y especializado, cuyo objetivo es asesorar y emitir recomendaciones en materia de movilidad;</p>
-      
-      <p>XVI. Comité de Vigilancia: órgano encargado de la auditoría, supervisión y control interno de los actos de administración y finanzas del Instituto;</p>
-      
-      <p>XVII. Concesión: Acto jurídico administrativo con elementos contractuales y regulatorios, por el cual en los términos de esta Ley se confiere a una persona física o moral la condición y poder jurídico para ejercer obligaciones y derechos en la explotación del Servicio de Transporte Público de Pasajeros en el Estado y/o de la infraestructura especializada o servicios conexos asociadas al mismo;</p>
-      
-      <p>XVIII. Consejo: El Consejo Consultivo de Movilidad y Accesibilidad;</p>
-      
-      <p>XIX. Contrato Administrativo de Operación: Instrumento jurídico a través del cual el Ejecutivo del Estado, por sí o a través del Instituto, contrata en los términos de ésta ley los servicios de operación de una o más unidades para la prestación del servicio público de transporte en las rutas que le sean asignadas. La contraprestación podrá ser establecida en modalidad de pago por kilómetro recorrido, kilómetro recorrido-pasajero, o por día de servicio, según lo determine la Junta de Gobierno;</p>
-      
-      <p>XX. Director General: Servidor Público encargado de la dirección, administración y funcionamiento del Instituto como superior jerárquico del resto de los servidores públicos del Instituto;</p>
-      
-      <p>XXI. ERT: Empresa de Redes de Transporte ante la cual se registran los conductores del SETIAP y que prestan el servicio de transporte privado de alquiler por medio de plataformas digitales a los usuarios previamente registrados en dicha plataforma;</p>
-      
-      <p>(REFORMADA, P.O. 10 DE JUNIO DE 2022)<br>
-      XXII. Energías Limpias: Energía utilizada para los vehículos motorizados que es eléctrica, hibrida, de gas natural, de gas LP, solar y de cualquier otra fuente de energía o tecnología cuyas emisiones o residuos no rebasen los umbrales establecidos en las Normas Oficiales Mexicanas, disposiciones reglamentarias existentes o las que para tal efecto se expidan y determinen las autoridades competentes con base en parámetros y normas de eficiencia energética, control de emisiones a la atmosfera y generación de residuos;</p>
-      
-      <p>XXIII. Estudio Técnico: El diagnóstico, análisis de evaluación y, en su caso estadístico, del cual se determinarán las necesidades de movilidad, así como las propuestas que permitan atender y mejorar las condiciones de movilidad sostenible;</p>
-      
-      <p>XXIV. Extensión: Ramal o ampliación del itinerario;</p>
-      
-      <p>XXV. Flotilla: El conjunto de vehículos, pertenecientes a una misma persona física o moral, destinado a la prestación del servicio público del transporte;</p>
-      
-      <p>XXVI. Instituto: Instituto de Movilidad y Accesibilidad;</p>
-      
-      <p>XXVII. Itinerario: Recorrido que debe hacer un vehículo de transporte público de pasajeros en las comunicaciones viales, entre los puntos extremos e intermedios que fije la concesión o permiso;</p>
-      
-      <p>XXVIII. Junta de Gobierno: Órgano colegiado encargado de la aprobación de acuerdos sobre la administración y funcionamiento del Instituto, así como para el seguimiento del cumplimiento de objetivos del mismo;</p>
-      
-      <p>XXIX. LAHOTDU: Ley de Asentamientos Humanos, Ordenamiento Territorial y Desarrollo Urbano para el Estado de Nuevo León;</p>
-      
-      <p>XXX. Ley: Ley de Movilidad Sostenible y Accesibilidad para el Estado de Nuevo León;</p>
-      
-      <p>XXXI. Metro: El sistema de transporte colectivo a base de vehículos eléctricos que conforman entre si un tren que circula por un viaducto;</p>
-      
-      <p>XXXII. Metrorrey: Organismo Público Descentralizado denominado Sistema de Transporte Colectivo Metrorrey;</p>
-      
-      <p>XXXIII. Midibús: Vehículo automotor de 6 llantas, diseñado y equipado para el transporte público o privado de personas, con una capacidad máxima de 30 pasajeros sentados;</p>
-      
-      <p>XXXIV. Micromovilidad: Serán considerados como tales los vehículos ligeros de transporte individual de propulsión a base de energía eléctrica o electricoasistida, con pesos menores a los 200 kilogramos;</p>
-      
-      <p>XXV. Modalidad: los diversos tipos de servicio de transporte de personas y bienes con determinadas características en sus flotillas, itinerarios y horarios;</p>
-      
-      <p>XXXVI. Modificación: Cambios al itinerario de una ruta, que se autoriza a partir de la sustitución de tramos definidos por puntos intermedios del recorrido;</p>
-      
-      <p>XXXVII. Motocicleta: Vehículo automotor de dos ruedas;</p>
-      
-      <p>XXXVIII. Motociclista: Persona que conduce una motocicleta;</p>
-      
-      <p>XXXIX. Mototaxi: Servicio auxiliar de transporte de pasajeros que se presta en áreas delimitadas denominadas como cuencas o zonas de influencia, preponderantemente en sectores de la población ubicadas en zonas de difícil acceso, y determinadas como técnicamente viables por el Instituto previa opinión favorable del Comité Técnico;</p>
-      
-      <p>XL. Movilidad Limitada: Toda persona cuya movilidad se haye reducida por motivos de edad, embarazo y alguna otra situación que sin ser una discapacidad, requiere una atención adecuada y la adaptación a sus necesidades particulares en el servicio;</p>
-      
-      <p>XLI. Movilidad no motorizada: Movilidad a través de medios que no cuenten con motor cuya finalidad y uso consiste en el desplazamiento de personas y bienes;</p>
-      
-      <p>XLII. Movilidad Sostenible: Desplazamiento de personas y/o bienes, que se realiza a través de modos de transporte de bajo o nulo consumo de carbono, y que privilegian la calidad de vida y el bienestar colectivo, así como la creación de espacios públicos que favorezcan la convivencia ciudadana con los mínimos efectos negativos al medio ambiente;</p>
-      
-      <p>XLIII. Paradas: Lugar donde obligatoriamente se detienen los autobuses, midibuses y microbuses para realizar sólo labores de ascenso y descenso de pasajeros;</p>
-      
-      <p>XLIV. Peatón: Persona que se traslada de un lugar a otro por su propio pie;</p>
-      
-      <p>XLV. Persona con discapacidad: Toda persona que por razón congénita o adquirida presenta una o más deficiencias de carácter físico, mental, intelectual o sensorial, ya sea permanente o temporal y que al interactuar con las barreras que le impone el entorno social, pueda impedir su inclusión plena y efectiva, en igualdad de condiciones con los demás;</p>
-      
-      <p>XLVI. Plataforma Digital: Las aplicaciones descargables en teléfonos móviles o instrumentos electrónicos a través de las cuáles se puedan recibir datos o comunicaciones de voz a través de la telefonía celular o internet;</p>
-      
-      <p>XLVII. Prestador: Prestador de servicio de transporte público;</p>
-      
-      <p>XLVIII. Ramal: Recorrido o trayecto determinado que realizan las unidades de transporte público de pasajeros;</p>
-      
-      <p>XLIX. REA: El Organismo Público Descentralizado denominado Red Estatal de Autopistas de Nuevo León;</p>
-      
-      <p>(F. DE E. P.O. 24 DE ENERO DE 2020)<br>
-      L. Reglamento: El Reglamento de la Ley de Movilidad Sostenible y Accesibilidad para el Estado de Nuevo León.</p>
-      
-      <p>LI. Reglamento Interior: Reglamento Interior del Instituto de Movilidad y Accesibilidad;</p>
-      
-      <p>LII. Ruta: Recorrido o trayecto determinado que realizan las unidades de transporte público de pasajeros y que sirve para la identificación de una flotilla de transporte público de pasajeros en un itinerario y modalidad específica;</p>
-      
-      <p>(REFORMADA, P.O. 18 DE MARZO DE 2022)<br>
-      LIII. Secretaria: Secretaria de Movilidad y Planeación Urbana;</p>
-      
-      <p>LIV. Servicios Auxiliares del Transporte: Aquel que se presta previa autorización del Instituto por medios alternos, entre los que se encuentran los de tracción humana, eléctrica, mecánica o de combustión interna;</p>
-      
-      <p>LV. Sistema Único de Peaje: Sistema de cobro electrónico de la tarifa por los servicios de transporte público de pasajeros del SETRA que será compatible con el sistema de peaje del SETME;</p>
-      
-      <p>LVI. Sistema Estatal de Movilidad (SEM): Es el sistema de planeación y operación del personal, infraestructura y vehículos que integran la red de movilidad en el Estado;</p>
-      
-      <p>LVII. Sistema Metrorrey: Es el conformado por líneas de Metro, servicios alimentadores y difusores operados directamente, o contratadas por Metrorrey, denominadas Transmetro, Metrobús y Metroenlace, Circuito DIF Nuevo y otros sistemas de alimentación similares;</p>
-      
-      <p>LVIII. SETIAP: Servicio de Transporte Individual de Alquiler Privado;</p>
-      
-      <p>LIX. SETME: Servicio de Transporte Metropolitano;</p>
-      
-      <p>LX. SETRA: Servicio Tradicional de Transporte;</p>
-      
-      <p>LXI. STDE: Servicio de Transporte con Destino Específico;</p>
-      
-      <p>LXII. Taller: Instalación para las labores de mantenimiento de los vehículos dentro o próxima al recorrido del servicio público de pasajeros;</p>
-      
-      <p>LXIII. Tarifa: Costo del pasaje a los usuarios, por el uso de las diversas modalidades de transporte público de pasajeros;</p>
-      
-      <p>LXIV. Taxi: Servicio Público de Transporte de Alquiler de Pasajeros;</p>
-      
-      <p>LXV. Taxi de Barrio: Servicio auxiliar de transporte de pasajeros que se ofrece en polígonos donde por sus características sociales y orográficas el sistema tradicional no ofrece sus servicios, y que es determinado técnicamente viable por el Comité Técnico;</p>
-      
-      <p>LXVI Terminal: Instalaciones para la concentración, administración del servicio y pernocta de los autobuses;</p>
-      
-      <p>LXVII. TP: Transporte Particular de Pasajeros;</p>
-      
-      <p>LXVIII. Transporte Regional: Servicio de Transporte Público fuera del área metropolitana o del área conurbada de Monterrey;</p>
-      
-      <p>LXIX. UMAS: Unidades de Medida y Actualización establecidas por el INEGI;</p>
-      
-      <p>LXX. Vehículos automotores en circulación: Vehículo de transporte terrestre particular, de carga o de pasajeros, así como vehículos utilizados para la prestación de cualquier tipo de servicio público o privado regulado por las Leyes de autotransporte federales o estales, propulsado por su propia fuente motriz;</p>
-      
-      <p>LXXI. Vehículo No Motorizado: son aquellos que se desplazan con fuerza de propulsión que no proviene de un motor; y</p>
-      
-      <p>LXXII. Zona de Influencia: Ámbito territorial establecido en los títulos de concesión o permisos, para determinar el otorgamiento de derechos y obligaciones derivados de dicho instrumento.</p>
-      
-      <p></p>
+      <div (scroll)="cptScrolling($event)">
+        <p>
+            CAPÍTULO SEGUNDO<br>
+            PRINCIPIOS</p>
+            
+            <p>Artículo 6. El Estado y los Municipios al diseñar e implementar sus programas, políticas, acciones de accesibilidad y movilidad, observarán los principios siguientes:</p>
+            
+            <p>I. Accesibilidad Urbana. Promover una adecuada accesibilidad que genere cercanía y favorezca la relación entre diferentes actividades urbanas;</p>
+            
+            <p>II. Accesibilidad Universal. Garantizar el derecho de las personas de desplazarse por las vías públicas sin obstáculos y con seguridad independientemente de su condición;</p>
+            
+            <p>III. Asequibilidad. Garantizar condiciones óptimas para que las personas tengan acceso a los bienes y servicios de movilidad a un precio justo, a fin de incentivar el uso de los mismos y favorecer la economía personal de los usuarios;</p>
+            
+            <p>IV. Calidad. Garantizar que los componentes del sistema de movilidad cuenten con los requerimientos y los aditamentos aceptables para cumplir con su función, inspeccionadas y autorizadas por la autoridad competente, producir el menor daño ambiental, ofrecer un espacio apropiado y confortable para las personas y encontrarse en buen estado, en condiciones higiénicas, de seguridad, y con mantenimiento regular, para proporcionar una adecuada experiencia de viaje en el menor tiempo posible y minimizando las externalidades;</p>
+            
+            <p>V. Concurrencia de órdenes de gobierno. Coordinar a todas las autoridades en el ámbito de sus atribuciones en el cumplimiento de los objetivos de la presente Ley;</p>
+            
+            <p>VI. Eficiencia. Maximizar los desplazamientos ágiles y asequibles optimizando los recursos disponibles, sin que su diseño y operación produzcan externalidades negativas;</p>
+            
+            <p>VII. Espacio Público: Generar condiciones para que el espacio público cumpla la función de articular los servicios, equipamientos, e infraestructura para la movilidad sostenible y la habitabilidad;</p>
+            
+            <p>VIII. Igualdad e Inclusión. Equiparar las oportunidades de la población para alcanzar un efectivo ejercicio de su derecho a la movilidad, poniendo especial énfasis en grupos en desventaja física, social y económica, para reducir mecanismos de exclusión;</p>
+            
+            <p>IX. Innovación tecnológica. Emplear soluciones apoyadas en tecnología de punta, para almacenar, procesar, distribuir información que permita contar con nuevos sistemas, aplicaciones y/o servicios que contribuyan a una gestión eficiente, tendiente a la automatización y reducción de los errores en los desplazamientos;</p>
+            
+            <p>X. Multimodalidad. Ofrecer a los diferentes grupos de usuarios opciones de servicios y modos de transporte integrados, que proporcionen al menor costo un recorrido de mayor distancia, disponibilidad, velocidad, y accesibilidad, que permitan reducir el uso del automóvil particular;</p>
+            
+            <p>XI. Participación y corresponsabilidad social. Establecer un sistema de movilidad basado en soluciones colectivas, que resuelva los desplazamientos de toda la población y en el que se promuevan nuevos hábitos de movilidad, a través de la aportación de todos los actores sociales y tecnológicos, en el ámbito de sus capacidades y responsabilidades;</p>
+            
+            <p>XII. Progresividad: gradualidad para lograr el pleno cumplimiento del derecho a la movilidad mediante la implementación permanente de políticas públicas que permitan una evolución favorable en el ámbito de protección jurídica de las personas;</p>
+            
+            <p>XIII. Resiliencia. Lograr que el sistema de movilidad tenga capacidad para soportar situaciones fortuitas o de fuerza mayor, con una recuperación de bajo costo para la sociedad y al medio ambiente;</p>
+            
+            <p>XIV. Seguridad Vial. Privilegiar las acciones de prevención de hechos de tránsito durante los desplazamientos, con el fin de proteger la integridad física de las personas y evitar la afectación a los bienes públicos y privados;</p>
+            
+            <p>XV. Sostenibilidad y Energías Limpias. Solucionar los desplazamientos de personas y sus bienes, minimizando los efectos negativos, favoreciendo la calidad de vida y el medio ambiente, incentivar el uso de transporte público y no motorizado, impulsar el uso de energías limpias en los medios de transporte, impulsando y estableciendo la obligación de los concesionarios y permisionarios de transporte público y privado de pasajeros y transporte privado de carga, de utilizar el uso de energías limpias; y</p>
+            
+            <p>XVI. Transparencia y rendición de cuentas: Poner al alcance de los ciudadanos la información relacionada con el uso de los recursos públicos y de los recursos privados derivados de la prestación del servicio de transporte público a través de particulares. La información relacionada con tarifas del transporte público de pasajeros será considerada como pública, incluyendo la relativa a su recaudo por los prestadores del servicio, así como el estudio, dictaminación, discusión y resolución de sus incrementos.</p>
+            
+            <p>Artículo 7. Los términos y plazos establecidos en esta Ley, se considerarán como días hábiles, salvo disposición en contrario.</p>
+            
+            <p>Artículo 8. Para los efectos de esta Ley, se entiende por:</p>
+            
+            <p>I. Ampliación: Es la extensión al itinerario de una ruta, autorizada a partir de uno de los extremos de su recorrido;</p>
+            
+            <p>II. Área Conurbada: La continuidad física y demográfica que formen dos o más Centros de Población;</p>
+            
+            <p>III. Autobús: Vehículo automotor de seis o más llantas, diseñado y equipado para el transporte público o privado de personas, con una capacidad para cuarenta o más pasajeros, pudiendo tener ejes o articulaciones adicionales;</p>
+            
+            <p>IV. Autobús Convencional: Vehículo de pasajeros con puerta de acceso ubicada detrás de sus ruedas frontales;</p>
+            
+            <p>V. Autobús Panorámico: Vehículo de pasajeros con puerta de acceso ubicada delante de sus ruedas frontales y con más de 10 metros de largo;</p>
+            
+            <p>VI. Bahía: Espacio exclusivo dentro de la vialidad fuera del carril de circulación para realizar sólo labores de ascenso y descenso de pasajeros;</p>
+            
+            <p>VII. Banqueta: Son franjas pavimentadas destinadas exclusivamente al tránsito de personas cuya función es la de conectar los predios y edificaciones colindantes así como calles o aceras;</p>
+            
+            <p>VIII. Bicicleta: Vehículo de dos ruedas cuyos pedales transmiten el movimiento a la rueda trasera por medio de dos piñones y una cadena;</p>
+            
+            <p>IX. Biciestacionamiento: Espacio físico y/o mobiliario urbano utilizado para sujetar, resguardar y/o custodiar bicicletas por tiempo determinado;</p>
+            
+            <p>X. BTR: Bus de tránsito rápido, es aquel autobús que cuenta con carril confinado y estaciones fijas para los pasajeros;</p>
+            
+            <p>XI. Carnet de Identificación: Documento oficial con los datos de los operadores de los vehículos pertenecientes al Sistema de Transporte a la vista de los usuarios;</p>
+            
+            <p>XII. Ciclista: Persona que se desplaza en bicicleta o similares no motorizados;</p>
+            
+            <p>XIII. Ciclocarril: Carril exclusivo para bicicletas y otros medios no motorizados señalizado con pintura o dispositivos para el control de tránsito;</p>
+            
+            <p>XIV. Comisario: Servidor Público, que presidirá el Comité de Vigilancia del Instituto y que estará encargado de la supervisión, inspección y auditoría de las finanzas y cuentas públicas del Instituto, y pertenecerá a la Junta de Gobierno, además de las diversas funciones a que lo facultan ésta Ley y la Ley que crea el Instituto;</p>
+            
+            <p>XV. Comité Técnico de Movilidad: órgano con autonomía técnica y de gestión, con funciones de carácter técnico y especializado, cuyo objetivo es asesorar y emitir recomendaciones en materia de movilidad;</p>
+            
+            <p>XVI. Comité de Vigilancia: órgano encargado de la auditoría, supervisión y control interno de los actos de administración y finanzas del Instituto;</p>
+            
+            <p>XVII. Concesión: Acto jurídico administrativo con elementos contractuales y regulatorios, por el cual en los términos de esta Ley se confiere a una persona física o moral la condición y poder jurídico para ejercer obligaciones y derechos en la explotación del Servicio de Transporte Público de Pasajeros en el Estado y/o de la infraestructura especializada o servicios conexos asociadas al mismo;</p>
+            
+            <p>XVIII. Consejo: El Consejo Consultivo de Movilidad y Accesibilidad;</p>
+            
+            <p>XIX. Contrato Administrativo de Operación: Instrumento jurídico a través del cual el Ejecutivo del Estado, por sí o a través del Instituto, contrata en los términos de ésta ley los servicios de operación de una o más unidades para la prestación del servicio público de transporte en las rutas que le sean asignadas. La contraprestación podrá ser establecida en modalidad de pago por kilómetro recorrido, kilómetro recorrido-pasajero, o por día de servicio, según lo determine la Junta de Gobierno;</p>
+            
+            <p>XX. Director General: Servidor Público encargado de la dirección, administración y funcionamiento del Instituto como superior jerárquico del resto de los servidores públicos del Instituto;</p>
+            
+            <p>XXI. ERT: Empresa de Redes de Transporte ante la cual se registran los conductores del SETIAP y que prestan el servicio de transporte privado de alquiler por medio de plataformas digitales a los usuarios previamente registrados en dicha plataforma;</p>
+            
+            <p>(REFORMADA, P.O. 10 DE JUNIO DE 2022)<br>
+            XXII. Energías Limpias: Energía utilizada para los vehículos motorizados que es eléctrica, hibrida, de gas natural, de gas LP, solar y de cualquier otra fuente de energía o tecnología cuyas emisiones o residuos no rebasen los umbrales establecidos en las Normas Oficiales Mexicanas, disposiciones reglamentarias existentes o las que para tal efecto se expidan y determinen las autoridades competentes con base en parámetros y normas de eficiencia energética, control de emisiones a la atmosfera y generación de residuos;</p>
+            
+            <p>XXIII. Estudio Técnico: El diagnóstico, análisis de evaluación y, en su caso estadístico, del cual se determinarán las necesidades de movilidad, así como las propuestas que permitan atender y mejorar las condiciones de movilidad sostenible;</p>
+            
+            <p>XXIV. Extensión: Ramal o ampliación del itinerario;</p>
+            
+            <p>XXV. Flotilla: El conjunto de vehículos, pertenecientes a una misma persona física o moral, destinado a la prestación del servicio público del transporte;</p>
+            
+            <p>XXVI. Instituto: Instituto de Movilidad y Accesibilidad;</p>
+            
+            <p>XXVII. Itinerario: Recorrido que debe hacer un vehículo de transporte público de pasajeros en las comunicaciones viales, entre los puntos extremos e intermedios que fije la concesión o permiso;</p>
+            
+            <p>XXVIII. Junta de Gobierno: Órgano colegiado encargado de la aprobación de acuerdos sobre la administración y funcionamiento del Instituto, así como para el seguimiento del cumplimiento de objetivos del mismo;</p>
+            
+            <p>XXIX. LAHOTDU: Ley de Asentamientos Humanos, Ordenamiento Territorial y Desarrollo Urbano para el Estado de Nuevo León;</p>
+            
+            <p>XXX. Ley: Ley de Movilidad Sostenible y Accesibilidad para el Estado de Nuevo León;</p>
+            
+            <p>XXXI. Metro: El sistema de transporte colectivo a base de vehículos eléctricos que conforman entre si un tren que circula por un viaducto;</p>
+            
+            <p>XXXII. Metrorrey: Organismo Público Descentralizado denominado Sistema de Transporte Colectivo Metrorrey;</p>
+            
+            <p>XXXIII. Midibús: Vehículo automotor de 6 llantas, diseñado y equipado para el transporte público o privado de personas, con una capacidad máxima de 30 pasajeros sentados;</p>
+            
+            <p>XXXIV. Micromovilidad: Serán considerados como tales los vehículos ligeros de transporte individual de propulsión a base de energía eléctrica o electricoasistida, con pesos menores a los 200 kilogramos;</p>
+            
+            <p>XXV. Modalidad: los diversos tipos de servicio de transporte de personas y bienes con determinadas características en sus flotillas, itinerarios y horarios;</p>
+            
+            <p>XXXVI. Modificación: Cambios al itinerario de una ruta, que se autoriza a partir de la sustitución de tramos definidos por puntos intermedios del recorrido;</p>
+            
+            <p>XXXVII. Motocicleta: Vehículo automotor de dos ruedas;</p>
+            
+            <p>XXXVIII. Motociclista: Persona que conduce una motocicleta;</p>
+            
+            <p>XXXIX. Mototaxi: Servicio auxiliar de transporte de pasajeros que se presta en áreas delimitadas denominadas como cuencas o zonas de influencia, preponderantemente en sectores de la población ubicadas en zonas de difícil acceso, y determinadas como técnicamente viables por el Instituto previa opinión favorable del Comité Técnico;</p>
+            
+            <p>XL. Movilidad Limitada: Toda persona cuya movilidad se haye reducida por motivos de edad, embarazo y alguna otra situación que sin ser una discapacidad, requiere una atención adecuada y la adaptación a sus necesidades particulares en el servicio;</p>
+            
+            <p>XLI. Movilidad no motorizada: Movilidad a través de medios que no cuenten con motor cuya finalidad y uso consiste en el desplazamiento de personas y bienes;</p>
+            
+            <p>XLII. Movilidad Sostenible: Desplazamiento de personas y/o bienes, que se realiza a través de modos de transporte de bajo o nulo consumo de carbono, y que privilegian la calidad de vida y el bienestar colectivo, así como la creación de espacios públicos que favorezcan la convivencia ciudadana con los mínimos efectos negativos al medio ambiente;</p>
+            
+            <p>XLIII. Paradas: Lugar donde obligatoriamente se detienen los autobuses, midibuses y microbuses para realizar sólo labores de ascenso y descenso de pasajeros;</p>
+            
+            <p>XLIV. Peatón: Persona que se traslada de un lugar a otro por su propio pie;</p>
+            
+            <p>XLV. Persona con discapacidad: Toda persona que por razón congénita o adquirida presenta una o más deficiencias de carácter físico, mental, intelectual o sensorial, ya sea permanente o temporal y que al interactuar con las barreras que le impone el entorno social, pueda impedir su inclusión plena y efectiva, en igualdad de condiciones con los demás;</p>
+            
+            <p>XLVI. Plataforma Digital: Las aplicaciones descargables en teléfonos móviles o instrumentos electrónicos a través de las cuáles se puedan recibir datos o comunicaciones de voz a través de la telefonía celular o internet;</p>
+            
+            <p>XLVII. Prestador: Prestador de servicio de transporte público;</p>
+            
+            <p>XLVIII. Ramal: Recorrido o trayecto determinado que realizan las unidades de transporte público de pasajeros;</p>
+            
+            <p>XLIX. REA: El Organismo Público Descentralizado denominado Red Estatal de Autopistas de Nuevo León;</p>
+            
+            <p>(F. DE E. P.O. 24 DE ENERO DE 2020)<br>
+            L. Reglamento: El Reglamento de la Ley de Movilidad Sostenible y Accesibilidad para el Estado de Nuevo León.</p>
+            
+            <p>LI. Reglamento Interior: Reglamento Interior del Instituto de Movilidad y Accesibilidad;</p>
+            
+            <p>LII. Ruta: Recorrido o trayecto determinado que realizan las unidades de transporte público de pasajeros y que sirve para la identificación de una flotilla de transporte público de pasajeros en un itinerario y modalidad específica;</p>
+            
+            <p>(REFORMADA, P.O. 18 DE MARZO DE 2022)<br>
+            LIII. Secretaria: Secretaria de Movilidad y Planeación Urbana;</p>
+            
+            <p>LIV. Servicios Auxiliares del Transporte: Aquel que se presta previa autorización del Instituto por medios alternos, entre los que se encuentran los de tracción humana, eléctrica, mecánica o de combustión interna;</p>
+            
+            <p>LV. Sistema Único de Peaje: Sistema de cobro electrónico de la tarifa por los servicios de transporte público de pasajeros del SETRA que será compatible con el sistema de peaje del SETME;</p>
+            
+            <p>LVI. Sistema Estatal de Movilidad (SEM): Es el sistema de planeación y operación del personal, infraestructura y vehículos que integran la red de movilidad en el Estado;</p>
+            
+            <p>LVII. Sistema Metrorrey: Es el conformado por líneas de Metro, servicios alimentadores y difusores operados directamente, o contratadas por Metrorrey, denominadas Transmetro, Metrobús y Metroenlace, Circuito DIF Nuevo y otros sistemas de alimentación similares;</p>
+            
+            <p>LVIII. SETIAP: Servicio de Transporte Individual de Alquiler Privado;</p>
+            
+            <p>LIX. SETME: Servicio de Transporte Metropolitano;</p>
+            
+            <p>LX. SETRA: Servicio Tradicional de Transporte;</p>
+            
+            <p>LXI. STDE: Servicio de Transporte con Destino Específico;</p>
+            
+            <p>LXII. Taller: Instalación para las labores de mantenimiento de los vehículos dentro o próxima al recorrido del servicio público de pasajeros;</p>
+            
+            <p>LXIII. Tarifa: Costo del pasaje a los usuarios, por el uso de las diversas modalidades de transporte público de pasajeros;</p>
+            
+            <p>LXIV. Taxi: Servicio Público de Transporte de Alquiler de Pasajeros;</p>
+            
+            <p>LXV. Taxi de Barrio: Servicio auxiliar de transporte de pasajeros que se ofrece en polígonos donde por sus características sociales y orográficas el sistema tradicional no ofrece sus servicios, y que es determinado técnicamente viable por el Comité Técnico;</p>
+            
+            <p>LXVI Terminal: Instalaciones para la concentración, administración del servicio y pernocta de los autobuses;</p>
+            
+            <p>LXVII. TP: Transporte Particular de Pasajeros;</p>
+            
+            <p>LXVIII. Transporte Regional: Servicio de Transporte Público fuera del área metropolitana o del área conurbada de Monterrey;</p>
+            
+            <p>LXIX. UMAS: Unidades de Medida y Actualización establecidas por el INEGI;</p>
+            
+            <p>LXX. Vehículos automotores en circulación: Vehículo de transporte terrestre particular, de carga o de pasajeros, así como vehículos utilizados para la prestación de cualquier tipo de servicio público o privado regulado por las Leyes de autotransporte federales o estales, propulsado por su propia fuente motriz;</p>
+            
+            <p>LXXI. Vehículo No Motorizado: son aquellos que se desplazan con fuerza de propulsión que no proviene de un motor; y</p>
+            
+            <p>LXXII. Zona de Influencia: Ámbito territorial establecido en los títulos de concesión o permisos, para determinar el otorgamiento de derechos y obligaciones derivados de dicho instrumento.</p>
+            
+            <p></p>
+            
+      </div>
       
       <p>TÍTULO SEGUNDO<br>
       GOBERNANZA, AUTORIDADES COMPETENTES Y MECANISMOS DE COORDINACIÓN</p>
